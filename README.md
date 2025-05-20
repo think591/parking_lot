@@ -9,6 +9,11 @@
 
 ## 如何重現
 安裝 `Miniconda`
-依據 `environment.yml` 建立環境：`conda env create -f environment.yml`
+依據 `environment.yml` 建立環境：
+
+```bash
+conda env create -f environment.yml
+```
+
 將 `data/` 資料夾中的 `car_plate_1.jpg、car_plate_2.jpg` 與 `car_plate_3.jpg` 放置於專案資料夾的 `data/` 資料夾中。
 啟動環境並執行 `python app.py` 並前往 `http://127.0.0.1:7860` 瀏覽成品。
